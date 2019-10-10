@@ -1,0 +1,22 @@
+//Layouts an positions
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_block {
+    width: 70vw;
+    height: 70vh;
+    padding: 40px 60px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+table, form {
+    width: 800px;
+}

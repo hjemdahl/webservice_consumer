@@ -1,0 +1,33 @@
+{
+  "name": "gulpGrund",
+  "version": "1.0.0",
+  "description": "Grundstruktur för webbutveckling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moa Hjemdahl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^4.12.0",
+    "pipeline-minify-css": "^1.0.1",
+    "sass-autoprefixer": "^1.0.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moment 5</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <!-- Content -->
+    <div class="inner_block">
+        <header>
+            <h1>Kurslista</h1>
+        </header>
+        <!-- Table -->
+        <div class="table_block">
+            <h3>Avklarade kurser</h3>
+            <table id="course_table">
+            </table>
+        </div>
+        <!-- Form -->
+        <div class="form_block">
+            <h3>Lägg till avslutad kurs</h3>
+            <form id="form">
+                <label for="code">Kurskod</label>
+                <input type="text" name="code" id="code"> 
+                <label for="name">Kursnamn</label>
+                <input type="text" name="name" id="name">
+                <label for="level">Kursnivå</label>
+                <input type="text" name="level" id="level">
+                <label for="syllabus">Kursplan</label>
+                <input type="text" name="syllabus" id="syllabus">
+                <button id="add">Lägg till</button>
+            </form>
+            <div id="mess"></div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
