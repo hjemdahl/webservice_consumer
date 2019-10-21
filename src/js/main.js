@@ -1,5 +1,5 @@
 // Variables
-const url = 'http://studenter.miun.se/~mohj1800/web3/mom5/rest.php';
+const url = 'http://studenter.miun.se/~mohj1800/web3/mom5/rest.php/api';
 var add = document.getElementById('add');
 
 // Eventlisteners
