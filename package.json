@@ -23,7 +23,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify-es": "^1.0.4",
     "gulp-uglifycss": "^1.1.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "pipeline-minify-css": "^1.0.1",
     "sass-autoprefixer": "^1.0.1"
   },
